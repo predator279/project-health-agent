@@ -7,4 +7,3 @@ pyyaml
 python-pptx
 anthropic
 pytest
-streamlit
