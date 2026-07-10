@@ -1,0 +1,9 @@
+openpyxl
+pandas
+python-docx
+pdfplumber
+pydantic
+pyyaml
+python-pptx
+anthropic
+pytest

@@ -1,0 +1,21 @@
+schedule_slippage:
+  amber_overdue_days_min: 1
+  amber_overdue_days_max: 10
+  red_overdue_days: 10
+milestone_health:
+  amber_pts_behind_min: 5
+  amber_pts_behind_max: 15
+  red_pts_behind: 15
+blockers:
+  keywords: ["pending", "blocked", "delay", "delayed", "impact", "impacted",
+             "waiting on", "on hold", "risk", "issue", "escalat"]
+  red_unresolved_cycles: 2
+sentiment:
+  negative_keywords: ["concern", "frustrat", "escalat", "unhappy", "unresolved", "impacted"]
+  positive_keywords: ["on track", "smooth", "resolved", "completed successfully", "good progress"]
+rollup:
+  project_overdue_pct_override: 0.30
+budget_burn:            # extended signal — inert unless cost fields exist in a given plan
+  amber_pts_ahead_min: 10
+  amber_pts_ahead_max: 25
+  red_pts_ahead: 25
